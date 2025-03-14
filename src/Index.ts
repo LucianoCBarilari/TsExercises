@@ -63,3 +63,18 @@ interface Person{
 }
 
 const people : Array<Person> = [{name: 'John', age: 30},{name: 'Jane', age: 25},{name: 'Jim', age: 40}];
+
+
+function Multiply(x:number, y:number): number{
+    return x * y;
+}
+
+function Add(x:number, y:number): number{
+    return x + y;
+}
+function Substract(x:number, y:number): number{
+    return x - y;
+}
+function Divide(x:number, y:number): number{
+    return x / y;
+}

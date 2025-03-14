@@ -1,0 +1,15 @@
+/*
+    * ESLint Configuration
+    * https://eslint.org/docs/user-guide/configuring
+    *
+    * ESLint Rules
+    *
+https://eslint.org/docs/latest/rules/
+*/
+{
+    "parser": "@typescript-eslint/parser",
+    "plugins": ["@typescript-eslint"],
+    "rules": {
+        "quotes": [2, "single"]
+    }
+}

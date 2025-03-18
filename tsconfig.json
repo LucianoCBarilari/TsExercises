@@ -1,19 +1,19 @@
 {
     "compilerOptions": {
-        "target": "ES5", // Specifies the target ECMAScript version for the compiled JavaScript.
-        "module": "CommonJS", // Specifies the module code generation method.
-        "sourceMap": false, // Indicates whether to generate source map files.
-        "outDir": "./dist/bundle.js", // Specifies the output directory for the compiled files.
-        "rootDir": "./src", // Specifies the root directory of input files.
-        "strict": true, // Enables all strict type-checking options.
-        "removeComments": true, // Removes comments from the output.
-        "noImplicitAny": true, // Raises an error on expressions and declarations with an implied 'any' type.
-        "strictFunctionTypes": true, // Ensures function type compatibility is strictly checked.
-
-        "noUnusedLocals": true, // Reports errors on unused local variables.
-        "noUnusedParameters": true, // Reports errors on unused parameters in functions.
-        "noImplicitReturns": true, // Ensures all code paths in a function return a value.
-        "noFallthroughCasesInSwitch": true, // Reports errors for fallthrough cases in switch statements.
+      "target": "ES6",                          // Compila a ECMAScript 6
+      "module": "ES6",                          // Utiliza el sistema de módulos ES6
+      "sourceMap": false,                       // No genera archivos de source map
+      "outDir": "./dist",                       // Directorio de salida (se compilarán múltiples archivos aquí)
+      "rootDir": "./src",                       // Directorio raíz del código fuente
+      "strict": true,                           // Activa todas las comprobaciones estrictas
+      "removeComments": true,                   // Elimina comentarios en el código compilado
+      "noImplicitAny": true,                    // Prohíbe el uso implícito de 'any'
+      "strictFunctionTypes": true,              // Revisa la compatibilidad de tipos en funciones de forma estricta
+      "noUnusedLocals": true,                   // Reporta variables locales no utilizadas
+      "noUnusedParameters": true,               // Reporta parámetros no utilizados en funciones
+      "noImplicitReturns": true,                // Asegura que todas las rutas de código devuelven un valor
+      "noFallthroughCasesInSwitch": true        // Previene caídas no intencionadas en switch
     },
-    "include": ["src/**/*", "webpack.config.js" ]// Includes all files in the 'src' directory and its subdirectories.
-}
+    "include": ["src/**/*", "webpack.config.js"]
+  }
+  

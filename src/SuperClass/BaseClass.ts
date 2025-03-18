@@ -1,7 +1,5 @@
-namespace SuperClass{
-
 // Declare a class named Example
-export class Example  {
+export class BaseClass  {
     
     // Optional properties for name and age
     name?: string;
@@ -25,5 +23,3 @@ export class Example  {
         this.age = age;
     }
 }
-}
-(window as any).SuperClass = SuperClass; // <-- Añade esto para que la clase sea visible en el navegador

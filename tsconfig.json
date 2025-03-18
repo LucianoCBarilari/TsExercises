@@ -1,9 +1,9 @@
 {
     "compilerOptions": {
-        "target": "es5", // Specifies the target ECMAScript version for the compiled JavaScript.
-        "module": "commonjs", // Specifies the module code generation method.
+        "target": "ES5", // Specifies the target ECMAScript version for the compiled JavaScript.
+        "module": "CommonJS", // Specifies the module code generation method.
         "sourceMap": false, // Indicates whether to generate source map files.
-        "outDir": "./dist", // Specifies the output directory for the compiled files.
+        "outDir": "./dist/bundle.js", // Specifies the output directory for the compiled files.
         "rootDir": "./src", // Specifies the root directory of input files.
         "strict": true, // Enables all strict type-checking options.
         "removeComments": true, // Removes comments from the output.
@@ -15,7 +15,5 @@
         "noImplicitReturns": true, // Ensures all code paths in a function return a value.
         "noFallthroughCasesInSwitch": true, // Reports errors for fallthrough cases in switch statements.
     },
-    "include": [
-        "src/**/*" // Includes all files in the 'src' directory and its subdirectories.
-    ]
+    "include": ["src/**/*", "webpack.config.js" ]// Includes all files in the 'src' directory and its subdirectories.
 }
